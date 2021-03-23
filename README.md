@@ -29,7 +29,7 @@ Where:
 For more information about the PMS7003 sensor, the datasheet can be found [here](https://download.kamami.com/p564008-p564008-PMS7003%20series%20data%20manua_English_V2.5.pdf).
 
 ## Connecting the PMS7003 to the NodeMCU
-The PMS7003 datasheet provides a circuit diagram of the PMS7003 connected to a generic Host MCU. This is how the sensor will be connected to the NodeMCU, with some minor modifications. For this project, only VCC, GND, RX and TX will be needed. Therefore, the pins being used on the NodeMCU will be Vin (5V), GND and D1 (GPIO) as well as D2 (GPIO) for the RX and TX pins. From this, the NodeMCU and the PMS7003 should be ready to use with the provided code.
+The PMS7003 datasheet provides a circuit diagram of the PMS7003 connected to a generic Host MCU. This is how the sensor will be connected to the NodeMCU, with some minor modifications. For this project, only VCC, GND, RX and TX will be needed. Therefore, the pins being used on the NodeMCU will be Vin (5V), GND and D1 (GPIO4) as well as D2 (GPIO5) for the RX and TX pins. From this, the NodeMCU and the PMS7003 should be ready to use with the provided code.
 
 ![image](https://user-images.githubusercontent.com/49784557/111967222-e4101780-8b4b-11eb-9d5e-29a14caffb67.png)
 
