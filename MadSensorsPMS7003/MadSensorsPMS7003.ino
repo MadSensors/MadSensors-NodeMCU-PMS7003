@@ -9,7 +9,7 @@
 
 #include <MadSensors-esp8266.h>
 #include <SoftwareSerial.h>
-#include "sensitive_data.h"
+#include "wifi_credentials.h"
 #include "pms.h"
 
 // Assign D1 and D2 to pms7003 serial port
