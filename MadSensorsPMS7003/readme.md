@@ -9,7 +9,7 @@ The wifi credentials of the user must be stored in a file named "wifi_credential
 
 // Your WiFi Credentials (replace with your WiFi credentials)\
 #ifndef WIFISSID\
-#define WIFISSID \
+#define WIFISSID "INSERT_HERE"\
 #endif
 
 #ifndef WIFIPASS\
