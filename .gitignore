@@ -1,3 +1,6 @@
+# sensitive files
+wifi_credentials.h
+
 # Prerequisites
 *.d
 
